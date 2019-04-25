@@ -61,8 +61,8 @@ export function activate(context: vscode.ExtensionContext) {
 			
 				currentSelection: vscode.Selection = editor.selection,
 
-				currentStart: vscode.Position 	= currentSelection.isReversed ? currentSelection.active : currentSelection.anchor,
-				currentEnd: vscode.Position 	= currentSelection.isReversed ? currentSelection.anchor : currentSelection.active,
+				currentStart: vscode.Position = currentSelection.isReversed ? currentSelection.active : currentSelection.anchor,
+				currentEnd: vscode.Position   = currentSelection.isReversed ? currentSelection.anchor : currentSelection.active,
 				
 				bracketPosition: vscode.Position = constants.DEFAULT_POSITION,
 
@@ -112,10 +112,10 @@ export function activate(context: vscode.ExtensionContext) {
 	
 	const isSelection = true;
 
-	registerCommand(constants.JUMP_FORWARD_COMMAND_ID, run(findBracketForward, !isSelection));
+	registerCommand(constants.JUMP_FORWARD_COMMAND_ID,   run(findBracketForward, !isSelection));
 	registerCommand(constants.JUMP_BACKWARDS_COMMAND_ID, run(findBracketBackwards, !isSelection));
 
-	registerCommand(constants.JUMP_FORWARD_SELECTION_COMMAND_ID, run(findBracketForward, isSelection));
+	registerCommand(constants.JUMP_FORWARD_SELECTION_COMMAND_ID,   run(findBracketForward, isSelection));
 	registerCommand(constants.JUMP_BACKWARDS_SELECTION_COMMAND_ID, run(findBracketBackwards, isSelection));
 }
 
