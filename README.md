@@ -1,6 +1,6 @@
 # README
 
-A simple Visual Studio Code allowing for a simple way to navigate between brackets and quotes within your source code.
+A Visual Studio Code allowing for a simple way to navigate between brackets and quotes within your source code.
 
 ## Usage
 
