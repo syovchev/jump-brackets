@@ -1,6 +1,6 @@
-# jump-brackets README
+# README
 
-A simple way to navigate between brackets and quotes within your source code.
+A simple Visual Studio Code allowing for a simple way to navigate between brackets and quotes within your source code.
 
 ## Usage
 
