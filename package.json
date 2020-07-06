@@ -18,19 +18,19 @@
 		"keybindings": [
 			{
 				"command": "jump-forward",
-				"key": "alt+k"
+				"key": "alt+'"
 			},
 			{
 				"command": "jump-backwards",
-				"key": "alt+j"
+				"key": "alt+;"
 			},
 			{
 				"command": "jump-forward-selection",
-				"key": "shift+alt+k"
+				"key": "shift+alt+'"
 			},
 			{
 				"command": "jump-backwards-selection",
-				"key": "shift+alt+j"
+				"key": "shift+alt+;"
 			}
 		]
 	},
